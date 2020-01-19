@@ -85,15 +85,15 @@
     document.addEventListener('DOMContentLoaded', function() 
     {
         $.getJSON('https://services.southsudanngoforum.org/api/contacts/nngo/ndg', function(data) {
-                _tableOptions = {
-                    "data": data,
-                    "pagination": 30,
-                    "tableDiv": "#fullTable",
-                    "filterDiv": "#fullTableFilter"
-                }
-                Sheetsee.makeTable(_tableOptions)
-                Sheetsee.initiateTableFilter(_tableOptions)
-            });
+            _tableOptions = {
+                "data": data,
+                "pagination": 30,
+                "tableDiv": "#fullTable",
+                "filterDiv": "#fullTableFilter"
+            }
+            Sheetsee.makeTable(_tableOptions)
+            Sheetsee.initiateTableFilter(_tableOptions)
+        });
     });
 
     // google analytics
