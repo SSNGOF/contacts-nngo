@@ -84,7 +84,8 @@
     document.addEventListener('DOMContentLoaded', function() 
     {
         // $.getJSON('https://services.southsudanngoforum.org/api/services/contact/nngo/ndg', function(data) {
-        $.getJSON('https://apps.southsudanngoforum.org/api/contacts/type/national', function(data) {
+         $.getJSON('http://localhost/SSNGOF/ngo-forum-ci/api/services/contact/nngo/ndg', function(data) {
+        //$.getJSON('https://apps.southsudanngoforum.org/api/contacts/type/national', function(data) {
             _tableOptions = {
                 "data": data,
                 "pagination": 30,
