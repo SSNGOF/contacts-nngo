@@ -6,7 +6,7 @@ body {
 	margin:0; 
 	padding:0;
 	background: #f9f9f9;
-	font-family: lato, 'Helvetica Neue', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	color: #003b43; 
 	font-size: 12px;
 	line-height: 1.6;
@@ -1367,6 +1367,7 @@ ul.link-tabs li {
     padding: 5px 10px;
 }
 
+
 .half {max-width: 50%; display: inline-block; vertical-align: top;}
 .half:nth-child(odd) {padding-left: 20px;}
 
@@ -1377,3 +1378,23 @@ ul.link-tabs li {
 
 /* Map Popup Style */
 .leaflet-popup-content h2 {margin-bottom: 4px; margin-top: auto;}
+
+#Pagination a, .calender-month {
+    padding: 3px 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #3498DB;
+    margin-right: 2px;
+    font-size: 10px;
+    outline: none;
+    cursor: hand;
+}
+#Pagination a {
+    padding: 5px 8px;
+}
+#Pagination a:hover, .calender-month:hover, .current {
+    background: #3498DB;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
